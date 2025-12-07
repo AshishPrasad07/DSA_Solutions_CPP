@@ -12,8 +12,8 @@ Approach:
 - Check each suffix of num by iterating from right to left and building the number, returning false if any suffix is not prime.
 - If all prefixes and suffixes are prime, return true.
 
-Time Complexity: tc = O(d * sqrt(n)) where d = number of digits  
-Space Complexity: sc = O(d) for storing string representation
+Time Complexity:   O(d * sqrt(n)) where d = number of digits  
+Space Complexity:  O(d) for storing string representation
 */
 
 class Solution {
